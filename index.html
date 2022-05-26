@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlist-Download</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <label for="link">Please enter a valid youtube playlist link</label> <br>
+  <input type="text" id="play_link"> <br>
+  <button id="btn-search">Search</button>
+  <br>
+
+<div id="playlistDetails">
+  <b><span>Channel Name: </span></b> <span id="chn-name"></span> <br>
+  <b><span>Playlist Title: </span></b> <span id="list-title"></span><br>
+  <b><span>Number of videos: </span></b> <span id="num-vid"></span>
+</div>
+ 
+
+  <table>
+    <thead>
+      <tr>
+        <td>S.No.</td>
+        <td>Title</td>
+        <td>Download link</td>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+
+    </tbody>
+  </table>
+  <script src="app.js"></script>
+  
+<script src="https://apis.google.com/js/api.js"></script>
+
+</body>
+</html>
