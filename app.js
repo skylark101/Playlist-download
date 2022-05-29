@@ -4,7 +4,7 @@
 
 
 
-var api_key = "AIzaSyB-JFzskr9Qf52K7eRTwtMtOr43lZ6iAWU";
+var api_key = "";
 var play_id;
 
 document.getElementById("btn-search").addEventListener("click",()=>{
