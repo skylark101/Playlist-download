@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Playlist-Download</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
+
 <body>
- 
+
   <label for="link">Please enter a valid youtube playlist link</label> <br>
   <input type="text" id="play_link"> <br>
   <button id="btn-search">Search</button>
   <br>
 
-<div id="playlistDetails">
-  <b><span>Channel Name: </span></b> <span id="chn-name"></span> <br>
-  <b><span>Playlist Title: </span></b> <span id="list-title"></span><br>
-  <b><span>Number of videos: </span></b> <span id="num-vid"></span>
-</div>
- 
+
+  <div id="playlistDetails">
+    <b><span>Channel Name: </span></b> <span id="chn-name"></span> <br>
+    <b><span>Playlist Title: </span></b> <span id="list-title"></span><br>
+    <b><span>Number of videos: </span></b> <span id="num-vid"></span>
+  </div>
+
 
   <table>
     <thead>
@@ -33,9 +37,14 @@
 
     </tbody>
   </table>
+  <div class="gitIcon">
+    <a href="https://github.com/skylark101/Playlist-download" target="_blank"><i class="fa fa-github"></i></a>
+  </div>
+
   <script src="app.js"></script>
-  
-<script src="https://apis.google.com/js/api.js"></script>
+
+  <script src="https://apis.google.com/js/api.js"></script>
 
 </body>
+
 </html>
