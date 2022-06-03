@@ -47,3 +47,14 @@ table thead{
   line-height: 3em;
   margin-bottom: 1%;
 }
+
+.gitIcon {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-size: 1.5rem;
+}
+.gitIcon a {
+  color: black;
+  cursor: pointer;
+}
